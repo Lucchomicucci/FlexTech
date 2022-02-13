@@ -18,6 +18,4 @@ select *,
 case when valor % 2 = 0 then 'par' else 'impar' end as paridad
 from ejercicioCuatro;
 
-select * from ejercicioCuatro;
-
 drop table ejercicioCuatro;
